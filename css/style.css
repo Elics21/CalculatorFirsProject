@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+body{
+    background-color: #404040;
+}
+.container{
+    margin: 0 auto;
+    width: 400px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.input-number {
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #D9D9D9;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fun-btn {
+    border-radius: 15px;
+    width: 190px;
+    height: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.fun-btn:hover{
+    background-color: #c9c4c4;
+    
+}
+.plus-btn {
+}
+.minus-btn {
+}
+.multiplication-btn {
+}
+.division-btn {
+}
+.result {
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A89696;
+}
